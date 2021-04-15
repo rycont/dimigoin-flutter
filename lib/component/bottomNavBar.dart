@@ -51,10 +51,3 @@ class BottomNavBar extends StatelessWidget {
         ));
   }
 }
-
-Widget pageWrapper(Widget child) {
-  return Scaffold(
-    body: child,
-    bottomNavigationBar: BottomNavBar(),
-  );
-}

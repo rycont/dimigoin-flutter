@@ -11,10 +11,7 @@ class RootPages extends StatefulWidget {
 
 class _RootPagesState extends State<RootPages> {
   int pageIndex = 0;
-  List<Widget> rootPages = [
-    HomePage(),
-    MealPage()
-  ];
+  List<Widget> rootPages = [HomePage(), MealPage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

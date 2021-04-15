@@ -40,3 +40,4 @@ flutter:
   assets:
     - asset/icon/StudentCard.svg
     - asset/image/dimigoBackground.svg
+    - asset/image/brandlogo.svg
