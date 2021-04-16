@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.62" height="25.2" viewBox="0 0 24.62 25.2">
+  <g id="그룹_2931" data-name="그룹 2931" transform="translate(1905 7128.2)">
+    <g id="사각형_2177" data-name="사각형 2177" transform="translate(-1892 -7114)" fill="none" stroke="#272727" stroke-linejoin="round" stroke-width="2">
+      <rect width="11" height="11" stroke="none"/>
+      <rect x="1" y="1" width="9" height="9" fill="none"/>
+    </g>
+    <g id="다각형_15" data-name="다각형 15" transform="translate(-1892.6 -7128.2)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5.216,1.785A1,1,0,0,1,7,1.785l4.491,8.967A1,1,0,0,1,10.6,12.2H1.619a1,1,0,0,1-.894-1.448Z" stroke="none"/>
+      <path d="M 6.110001087188721 4.46628475189209 L 3.238442420959473 10.19999694824219 L 8.98155403137207 10.19999694824219 L 6.110001087188721 4.46628475189209 M 6.109999656677246 1.233141899108887 C 6.464882373809814 1.233141899108887 6.819764614105225 1.417206764221191 7.004129886627197 1.785337448120117 L 11.49490928649902 10.752197265625 C 11.82792949676514 11.41713714599609 11.34444999694824 12.19999694824219 10.60077953338623 12.19999694824219 L 1.619219779968262 12.19999694824219 C 0.87554931640625 12.19999694824219 0.3920698165893555 11.41713714599609 0.7250900268554688 10.752197265625 L 5.215869426727295 1.785337448120117 C 5.400234699249268 1.417206764221191 5.755116939544678 1.233141899108887 6.109999656677246 1.233141899108887 Z" stroke="none" fill="#272727"/>
+    </g>
+    <path id="패스_3382" data-name="패스 3382" d="M-1913-6938.085h9" transform="translate(9 -170.415)" fill="none" stroke="#272727" stroke-linecap="round" stroke-width="2"/>
+    <path id="패스_3383" data-name="패스 3383" d="M-1913-6938.085h9" transform="translate(-8837.585 -5200) rotate(90)" fill="none" stroke="#272727" stroke-linecap="round" stroke-width="2"/>
+    <g id="타원_160" data-name="타원 160" transform="translate(-1905 -7127)" fill="none" stroke="#272727" stroke-width="2">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="4.5" fill="none"/>
+    </g>
+  </g>
+</svg>

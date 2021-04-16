@@ -38,6 +38,12 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - asset/icon/StudentCard.svg
+    - asset/icon/studentCard.svg
+    - asset/icon/logout.svg
+    - asset/icon/ingangsil.svg
+    - asset/icon/laundry.svg
+    - asset/icon/other.svg
+    - asset/icon/notice.svg
+    - asset/icon/hamburger.svg
     - asset/image/dimigoBackground.svg
     - asset/image/brandlogo.svg

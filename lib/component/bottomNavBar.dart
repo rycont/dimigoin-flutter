@@ -33,13 +33,13 @@ class BottomNavBar extends StatelessWidget {
           items: [
             BottomNavigationBarItem(
               label: "학생증",
-              icon: navbarIcon('StudentCard'),
-              activeIcon: navbarIcon('StudentCard', true),
+              icon: navbarIcon('studentCard'),
+              activeIcon: navbarIcon('studentCard', true),
             ),
             BottomNavigationBarItem(
               label: "학생증",
-              icon: navbarIcon('StudentCard'),
-              activeIcon: navbarIcon('StudentCard', true),
+              icon: navbarIcon('studentCard'),
+              activeIcon: navbarIcon('studentCard', true),
             ),
           ],
           selectedLabelStyle:

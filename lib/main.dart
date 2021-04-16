@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:dimigoin/page/rootpages/main.dart';
+import 'package:dimigoin/page/rootpages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:window_size/window_size.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         accentColor: Color(0xFFE83C77),
       ),
       routes: {
-        '/': (BuildContext _) => RootPages()
+        '/': (BuildContext _) => HomePage()
       },
     );
   }
