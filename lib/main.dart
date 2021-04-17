@@ -5,11 +5,11 @@ import 'package:window_size/window_size.dart';
 
 void main() {
   runApp(MyApp());
-  if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    setWindowTitle("DIMIGOin");
-    setWindowMinSize(Size(375, 750));
-    setWindowMaxSize(Size(600, 1000));
-  }
+  // if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+  //   setWindowTitle("DIMIGOin");
+  //   setWindowMinSize(Size(375, 750));
+  //   setWindowMaxSize(Size(600, 1000));
+  // }
 }
 class MyApp extends StatelessWidget {
   @override
