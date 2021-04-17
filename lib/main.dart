@@ -1,7 +1,7 @@
-import 'dart:io';
+// import 'dart:io';
 import 'package:dimigoin/page/rootpages/home.dart';
 import 'package:flutter/material.dart';
-import 'package:window_size/window_size.dart';
+// import 'package:window_size/window_size.dart';
 
 void main() {
   runApp(MyApp());

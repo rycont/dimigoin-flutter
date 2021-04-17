@@ -39,6 +39,7 @@ class Modal extends StatelessWidget {
                   children: [
                     Expanded(
                         child: TextButton(
+                          onPressed: () => print("누름!"),
                       child: Padding(
                         padding: EdgeInsets.all(12),
                         child: Text(
@@ -55,6 +56,7 @@ class Modal extends StatelessWidget {
                     )),
                     Expanded(
                       child: TextButton(
+                        onPressed: () => print("누름!"),
                         child: Padding(
                           padding: EdgeInsets.all(12),
                           child: Text(
