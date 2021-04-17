@@ -45,5 +45,7 @@ flutter:
     - asset/icon/other.svg
     - asset/icon/notice.svg
     - asset/icon/hamburger.svg
+    - asset/icon/desk.svg
+    - asset/icon/healingsil.svg
     - asset/image/dimigoBackground.svg
     - asset/image/brandlogo.svg
