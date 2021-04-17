@@ -58,14 +58,14 @@ class SelfStudyStatus extends StatelessWidget {
           ),
           Padding(padding: EdgeInsets.all(20), child: RichText(
               text: TextSpan(
-                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700, color: Color(0xFFD1D1D1)),
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700, color: Color(0xFFD1D1D1), fontFamily: 'NanumSquare'),
                   children: <TextSpan>[
                 TextSpan(
                   text: '현재 나의 위치는 ',
                 ),
                 TextSpan(
                   text: '방과후 6실',
-                  style: TextStyle(color: Theme.of(context).accentColor),
+                  style: TextStyle(color: Theme.of(context).accentColor, fontWeight: FontWeight.w900),
                 ),
                 TextSpan(
                   text: ' 입니다',

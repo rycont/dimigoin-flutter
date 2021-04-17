@@ -49,3 +49,12 @@ flutter:
     - asset/icon/healingsil.svg
     - asset/image/dimigoBackground.svg
     - asset/image/brandlogo.svg
+  fonts:
+    - family: NanumSquare
+      fonts:
+        - asset: asset/font/NanumSquareB.ttf
+          weight: 700
+        - asset: asset/font/NanumSquareEB.ttf
+          weight: 900
+        - asset: asset/font/NanumSquareR.ttf
+          weight: 400

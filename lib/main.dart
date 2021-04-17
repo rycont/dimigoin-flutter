@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color(0xFFE83C77),
         accentColor: Color(0xFFE83C77),
+        fontFamily: 'NanumSquare'
       ),
       routes: {
         '/': (BuildContext _) => HomePage()
