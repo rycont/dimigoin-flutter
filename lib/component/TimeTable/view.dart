@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class DailyColumn extends StatelessWidget {
   final bool active;
-  final sampleSubject = ["공수", "공수", "공수", "공수", "공수", "공수", "공수"];
+  final sampleSubject = ["공수", "화1", "공수", "공수", "공수", "공수", "공수"];
   DailyColumn({this.active = false});
   @override
   Widget build(BuildContext context) {
