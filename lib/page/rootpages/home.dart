@@ -2,6 +2,7 @@ import 'package:dimigoin/class.dart';
 import 'package:dimigoin/component/CardHeader/view.dart';
 import 'package:dimigoin/component/DailyMeal/view.dart';
 import 'package:dimigoin/component/SelfStudyStatus/view.dart';
+import 'package:dimigoin/component/TimeTable/view.dart';
 // import 'package:dimigoin/style/typo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -208,7 +209,9 @@ class HomePage extends StatelessWidget {
             CardHeader(title: '자습현황', subTitle: '우리반 현황'),
             SelfStudyStatus(),
             CardHeader(title: '오늘의 급식', subTitle: '주간 급식'),
-            DailyMeal()
+            DailyMeal(),
+            CardHeader(title: '시간표'),
+            TimeTable()
           ],
         )));
   }
