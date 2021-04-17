@@ -7,5 +7,6 @@ const headerTextStyle = TextStyle(
 
 final subHeaderTextStyle = (BuildContext context) => TextStyle(
   fontSize: 15,
-  color: Theme.of(context).primaryColor
+  color: Theme.of(context).primaryColor,
+  fontWeight: FontWeight.w700
 );

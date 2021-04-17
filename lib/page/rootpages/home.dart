@@ -1,5 +1,6 @@
 import 'package:dimigoin/class.dart';
 import 'package:dimigoin/component/CardHeader/view.dart';
+import 'package:dimigoin/component/DailyMeal/view.dart';
 import 'package:dimigoin/component/SelfStudyStatus/view.dart';
 // import 'package:dimigoin/style/typo.dart';
 import 'package:flutter/material.dart';
@@ -197,12 +198,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF9F9F9),
-      // backgroundColor: Colors.red,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [Navbar(), CardHeader( title: '자습현황', subTitle: '우리반 현황',), SelfStudyStatus()],
-      ),
-    );
+        backgroundColor: Color(0xFFF9F9F9),
+        // backgroundColor: Colors.red,
+        body: SingleChildScrollView(
+            child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Navbar(),
+            CardHeader(title: '자습현황', subTitle: '우리반 현황'),
+            SelfStudyStatus(),
+            CardHeader(title: '오늘의 급식', subTitle: '주간 급식'),
+            DailyMeal()
+          ],
+        )));
   }
 }
